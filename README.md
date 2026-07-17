@@ -18,6 +18,15 @@ Le **code source vit dans un dépôt privé**. Ce dépôt public existe pour don
 
 Elle ne diagnostique pas, ne remplace pas un professionnel de santé et ne doit pas être utilisée pour trier une urgence.
 
+## Appel à participation (bêta ouverte)
+
+Le projet cherche des retours pour progresser, de deux profils en particulier :
+
+- **Patients et aidants** : testez le parcours réel (saisie, planning de traitements, synthèse PDF) et signalez ce qui est confus, incorrect ou manquant. Le mode démo permet de tester sans saisir de données réelles.
+- **Professionnels de santé** : une relecture du contenu clinique (formule et seuils HBI, échelle de Bristol, libellés) par un médecin ou un(e) soignant(e) serait précieuse avant tout usage élargi — voir [compliance/plan_validation_clinique.md](compliance/plan_validation_clinique.md) et [compliance/sources_cliniques.md](compliance/sources_cliniques.md) pour l'état actuel des sources.
+
+Cette bêta n'est pas un dispositif médical certifié et ne remplace pas un avis médical. Pour participer ou remonter un retour : [crohnapp@gmail.com](mailto:crohnapp@gmail.com).
+
 ## Dossier conformité
 
 Rédigé pour être lisible par un non-technicien, il reflète l'architecture réelle de l'application :
@@ -58,7 +67,7 @@ Volontairement absents de cette version : publication sur un store applicatif (G
 
 ## Contact
 
-Pour toute question ou demande d'accès en lecture au code source : **crohnapp@gmail.com**
+Pour toute question, retour de participation ou demande d'accès en lecture au code source : [crohnapp@gmail.com](mailto:crohnapp@gmail.com)
 
 ---
 
@@ -72,6 +81,15 @@ The **source code lives in a private repository**. This public repository exists
 
 It does not diagnose, replace a clinician, or triage emergencies.
 
+## Call for participation (open beta)
+
+The project is looking for feedback from two groups in particular:
+
+- **Patients and caregivers**: try the real journey (logging, medication schedule, PDF summary) and report anything confusing, incorrect or missing. Demo mode lets you try it without entering real data.
+- **Healthcare professionals**: a review of the clinical content (HBI formula and thresholds, Bristol scale, wording) by a clinician would be valuable before any wider use — see [compliance/plan_validation_clinique.md](compliance/plan_validation_clinique.md) and [compliance/sources_cliniques.md](compliance/sources_cliniques.md) for the current state of sources.
+
+This beta is not a certified medical device and does not replace medical advice.
+
 ## Contact
 
-For questions or a source-code read-access request: **crohnapp@gmail.com**
+For questions, feedback, or a source-code read-access request: [crohnapp@gmail.com](mailto:crohnapp@gmail.com)

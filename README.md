@@ -50,6 +50,7 @@ Rédigé pour être lisible par un non-technicien, il reflète l'architecture r�
 - [docs/TECHNICAL_DATA_FLOW_AUDIT.md](docs/TECHNICAL_DATA_FLOW_AUDIT.md) — audit statique du code source : absence de télémétrie tierce et de fuite de données de santé.
 - [docs/EXPORT_SECURITY.md](docs/EXPORT_SECURITY.md) — sauvegardes chiffrées et limites de récupération.
 - [docs/international-rollout.md](docs/international-rollout.md) — porte de revue avant tout nouveau pays.
+- [local-first-proof/](local-first-proof/) — **extrait du vrai code source** (chiffrement, stockage, export, authentification) pour vérifier directement, sans avoir à nous croire sur parole, qu'aucune donnée de santé ne quitte l'appareil.
 
 ## Fonctionnement local et confidentialité
 

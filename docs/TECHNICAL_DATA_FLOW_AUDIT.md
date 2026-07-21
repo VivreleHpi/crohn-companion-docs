@@ -1,4 +1,4 @@
-# Audit Technique du Flux de Données — Crohn Companion
+# Audit Technique du Flux de Données — CrohnApp
 
 **Date d'audit :** 17 juillet 2026  
 **Type d'audit :** Analyse statique du code source  
@@ -70,7 +70,7 @@ grep -r "fetch\(|axios\.|XMLHttpRequest|WebSocket|EventSource" src/ --include="*
 
 | Fichier | URL/Constant | Usage | Classification |
 |---------|-------|-------|---|
-| `src/lib/generatePDF.ts:19` | `https://crohn-companion-app.vercel.app/` | Affichée dans le PDF généré (lien cliquable pour l'utilisateur) | Pas d'appel réseau |
+| `src/lib/generatePDF.ts:19` | `https://crohnapp.com/` | Affichée dans le PDF généré (lien cliquable pour l'utilisateur) | Pas d'appel réseau |
 | `src/lib/generatePDF.ts:20` | `crohnapp@gmail.com` | Affichée dans le PDF (mailto: cliquable) | Action explicite utilisateur |
 | `src/lib/social.ts:12` | `https://www.facebook.com/profile.php?id=61592033785071` | Lien cliquable vers page Facebook | Action explicite utilisateur |
 | `src/pages/LegalNotices.tsx:38` | `https://www.linkedin.com/in/mushin-ia-6b7a8394/` | Lien cliquable vers profil LinkedIn | Action explicite utilisateur |
@@ -181,7 +181,7 @@ Aucune stratégie de synchronisation distante ou sync API configurée.
 
 ### Conclusion
 
-**Crohn Companion est une application véritablement local-first. Aucune donnée de santé ne quitte l'appareil sans action explicite de l'utilisateur.** Les flux réseau détectés (liens cliquables vers LinkedIn, Facebook, PubMed, mailto:) restent sous le contrôle complet de l'utilisateur.
+**CrohnApp est une application véritablement local-first. Aucune donnée de santé ne quitte l'appareil sans action explicite de l'utilisateur.** Les flux réseau détectés (liens cliquables vers LinkedIn, Facebook, PubMed, mailto:) restent sous le contrôle complet de l'utilisateur.
 
 ---
 

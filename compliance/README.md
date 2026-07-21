@@ -1,6 +1,6 @@
-# Dossier conformité — Crohn Companion
+# Dossier conformité — CrohnApp
 
-Ce dossier documente la finalité, les données, les risques et les engagements de Crohn Companion.
+Ce dossier documente la finalité, les données, les risques et les engagements de CrohnApp.
 Il est rédigé pour être lisible par un non-technicien et reflète l'**architecture réelle** de
 l'application au 4 juillet 2026 :
 

@@ -2,7 +2,7 @@
 
 ## Situation actuelle
 
-Crohn Companion fonctionne **entièrement en local** : les données de santé restent sur
+CrohnApp fonctionne **entièrement en local** : les données de santé restent sur
 l'appareil de l'utilisateur, sous son contrôle exclusif, à des fins strictement personnelles.
 Dans cette configuration, l'éditeur n'a accès à aucune donnée de santé et n'effectue aucun
 traitement au sens opérationnel : il n'y a pas de collecte, pas de transmission, pas de

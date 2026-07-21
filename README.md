@@ -1,10 +1,18 @@
-# Crohn Companion — Documentation publique
+# CrohnApp — Documentation publique
 
-![Product tour](docs/assets/crohn-companion-demo.gif)
+**Application en ligne : [https://crohnapp.com](https://crohnapp.com)**
+
+![Tour produit CrohnApp — captures réelles du mode démo (ordinateur)](docs/assets/tutorial-desktop.gif)
 
 > **Statut : démonstration publique local-first** — pas un dispositif médical certifié.
 
-Ce dépôt contient uniquement la **documentation** de Crohn Companion, une PWA React/TypeScript qui aide une personne vivant avec la maladie de Crohn à suivre ses symptômes, selles, traitements et à préparer une discussion avec son équipe soignante.
+## Tutoriel — comment ça marche
+
+Captures réelles du mode démo (données fictives). Depuis [crohnapp.com](https://crohnapp.com), cliquez sur **« Essayer avec un profil démo »** : tableau de bord, selles (Bristol), symptômes, traitements, analyses, synthèse PDF et exports/sauvegardes chiffrées.
+
+<img src="docs/assets/tutorial-mobile.gif" alt="Tutoriel CrohnApp sur mobile" width="320" />
+
+Ce dépôt contient uniquement la **documentation** de CrohnApp, une PWA React/TypeScript qui aide une personne vivant avec la maladie de Crohn à suivre ses symptômes, selles, traitements et à préparer une discussion avec son équipe soignante.
 
 Le **code source vit dans un dépôt privé**. Ce dépôt public existe pour donner une transparence vérifiable sur la finalité, les données traitées, l'architecture de confidentialité et les limites du produit, sans exposer l'ensemble du code applicatif. Un accès en lecture au code source peut être accordé sur demande motivée (contact ci-dessous).
 
@@ -40,6 +48,7 @@ Rédigé pour être lisible par un non-technicien, il reflète l'architecture r�
 | [compliance/analyse_risque_securite.md](compliance/analyse_risque_securite.md) | Risques identifiés et mesures de réduction |
 | [compliance/sources_cliniques.md](compliance/sources_cliniques.md) | Références des scores et échelles utilisés |
 | [compliance/limites_dispositif_medical.md](compliance/limites_dispositif_medical.md) | Statut non-DM et frontières à ne pas franchir |
+| [compliance/preuves_ia_exigences.md](compliance/preuves_ia_exigences.md) | État des preuves, IA et exigences avant toute évolution |
 | [compliance/hbi_calcul.md](compliance/hbi_calcul.md) | Formule, source, seuils et version du calcul HBI |
 | [compliance/flux_donnees.md](compliance/flux_donnees.md) | Vérification documentée des flux de données (« local-first ») |
 | [compliance/plan_validation_clinique.md](compliance/plan_validation_clinique.md) | Plan de validation terrain (beta) |
@@ -76,7 +85,7 @@ Pour toute question, retour de participation ou demande d'accès en lecture au c
 
 > **Status: public local-first demo** — not a certified medical device.
 
-This repository contains only the **documentation** for Crohn Companion, a React/TypeScript PWA that helps people living with Crohn's disease track symptoms, stool logs and medication, and prepare better conversations with their care team.
+This repository contains only the **documentation** for CrohnApp, a React/TypeScript PWA that helps people living with Crohn's disease track symptoms, stool logs and medication, and prepare better conversations with their care team.
 
 The **source code lives in a private repository**. This public repository exists to provide verifiable transparency on the product's purpose, data handling, privacy architecture and boundaries, without exposing the full application code. Read access to the source can be granted on request (contact below).
 

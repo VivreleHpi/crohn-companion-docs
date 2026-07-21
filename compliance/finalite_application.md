@@ -1,8 +1,8 @@
 # Finalité de l'application
 
-## Ce que fait Crohn Companion
+## Ce que fait CrohnApp
 
-Crohn Companion est un **carnet de suivi personnel** pour les personnes vivant avec une maladie
+CrohnApp est un **carnet de suivi personnel** pour les personnes vivant avec une maladie
 de Crohn ou une MICI. Il permet de :
 
 - Consigner les selles (échelle de Bristol, sang, mucus), les symptômes, le suivi des prises
@@ -14,7 +14,7 @@ de Crohn ou une MICI. Il permet de :
 - Exporter ses données (CSV, sauvegarde JSON) et préparer un dépôt manuel de la synthèse dans
   **Mon espace santé**.
 
-## Ce que ne fait pas Crohn Companion
+## Ce que ne fait pas CrohnApp
 
 - **Pas de diagnostic** ni d'évaluation d'urgence automatique.
 - **Pas de recommandation thérapeutique** ni d'ajustement de traitement.

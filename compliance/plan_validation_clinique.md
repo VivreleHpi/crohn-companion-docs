@@ -1,6 +1,6 @@
 # Plan de validation terrain
 
-Objectif : établir la crédibilité de Crohn Companion par des retours réels, sans revendication
+Objectif : établir la crédibilité de CrohnApp par des retours réels, sans revendication
 clinique prématurée. Trois étapes progressives.
 
 ## Étape 1 — 10 patients volontaires (14 jours)

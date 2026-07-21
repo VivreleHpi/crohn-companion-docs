@@ -2,7 +2,7 @@
 
 ## Statut actuel
 
-Crohn Companion est un **carnet de suivi personnel**, non revendiqué comme dispositif médical.
+CrohnApp est un **carnet de suivi personnel**, non revendiqué comme dispositif médical.
 Sa qualification réglementaire doit être confirmée par un conseil juridique et réglementaire avant
 toute mise sur le marché. Ses signaux de suivi ne sont ni validés cliniquement ni destinés à un
 diagnostic ou à une décision thérapeutique.

@@ -6,7 +6,7 @@
 
 ## Statut
 
-Le score HBI affiché dans Crohn Companion est **calculé à partir des données déclarées par
+Le score HBI affiché dans CrohnApp est **calculé à partir des données déclarées par
 l'utilisateur**. Il constitue un repère de suivi. Il ne permet pas, à lui seul, de confirmer
 une poussée, une rémission ou l'activité inflammatoire de la maladie. Aucune conclusion
 automatique (rémission, poussée, stabilité, sévérité, urgence, efficacité d'un traitement)

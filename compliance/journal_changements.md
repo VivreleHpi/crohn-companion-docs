@@ -1,5 +1,13 @@
 # Journal des changements notables (conformité et sécurité)
 
+## Politique de tenue du journal
+
+À compter du 12 août 2026, chaque mise en production notable de CrohnApp est documentée ici :
+nouvelles fonctionnalités, corrections visibles, changements touchant la confidentialité, la
+sécurité, les calculs ou la conservation des données. La documentation technique privée est tenue
+à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
+après vérification du site et, lorsque nécessaire, de la PWA installée.
+
 ## 2026-08-12
 
 - Correction de plusieurs calculs et restitutions afin que les synthèses correspondent exactement

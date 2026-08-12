@@ -8,6 +8,15 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## v1.1.0 — 2026-08-13
+
+- Ajout d'une page « Aide et FAQ » accessible sans ouvrir de carnet, avec des liens directs vers
+  les guides publics de mise à jour, de sauvegarde, de restauration et d'analyse.
+- Refonte de l'export PNG des graphiques : image haute définition, titre et période explicites,
+  légende lisible, date d'export et version de CrohnApp.
+- Ajout d'un contrôle automatique du format et des dimensions du PNG sur un écran Android simulé.
+- Publication d'un guide mobile illustré consacré à l'export des analyses.
+
 ## v1.0.0 — 2026-08-13
 
 - Correction de plusieurs calculs et restitutions afin que les synthèses correspondent exactement

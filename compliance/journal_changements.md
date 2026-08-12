@@ -19,6 +19,9 @@ après vérification du site et, lorsque nécessaire, de la PWA installée.
 - Amélioration des mises à jour de la PWA installée : vérification au lancement, au retour dans
   l'application et au rétablissement du réseau. Un avis « Mise à jour disponible » permet de
   rafraîchir explicitement CrohnApp lorsque la nouvelle version est prête.
+- Ajout d'une confirmation visible après activation d'une version et de son identifiant dans le
+  profil. L'utilisateur peut ainsi vérifier la version installée même lorsque Chrome a appliqué
+  la mise à jour silencieusement pendant que la PWA était fermée.
 - Renforcement des tests automatiques sur le chiffrement, les calculs cliniques, les exports et
   les parcours ordinateur/mobile.
 

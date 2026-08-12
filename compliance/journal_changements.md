@@ -8,7 +8,7 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
-## 2026-08-12
+## v1.0.0 — 2026-08-13
 
 - Correction de plusieurs calculs et restitutions afin que les synthèses correspondent exactement
   aux données déclarées : regroupement hebdomadaire, période du rapport et valeurs absentes.

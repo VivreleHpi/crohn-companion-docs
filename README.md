@@ -12,6 +12,14 @@ Captures réelles du mode démo (données fictives). Depuis [crohnapp.com](https
 
 <img src="docs/assets/tutorial-mobile.gif" alt="Tutoriel CrohnApp sur mobile" width="320" />
 
+## Guides mobiles essentiels
+
+- [Mettre à jour CrohnApp et vérifier la version](docs/guides/mise-a-jour-pwa.md)
+- [Créer et restaurer une sauvegarde chiffrée](docs/guides/sauvegarder-restaurer.md)
+
+Ces guides utilisent uniquement le profil démo et des données fictives. Une procédure écrite reste
+présente sous chaque GIF pour l'accessibilité et pour les connexions lentes.
+
 Ce dépôt contient uniquement la **documentation** de CrohnApp, une PWA React/TypeScript qui aide une personne vivant avec la maladie de Crohn à suivre ses symptômes, selles, traitements et à préparer une discussion avec son équipe soignante.
 
 Le **code source vit dans un dépôt privé**. Ce dépôt public existe pour donner une transparence vérifiable sur la finalité, les données traitées, l'architecture de confidentialité et les limites du produit, sans exposer l'ensemble du code applicatif. Un accès en lecture au code source peut être accordé sur demande motivée (contact ci-dessous).

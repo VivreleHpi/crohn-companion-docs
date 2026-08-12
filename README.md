@@ -66,15 +66,16 @@ Rédigé pour être lisible par un non-technicien, il reflète l'architecture r�
 
 ## Autre documentation
 
-- [docs/TECHNICAL_DATA_FLOW_AUDIT.md](docs/TECHNICAL_DATA_FLOW_AUDIT.md) — audit statique du code source : absence de télémétrie tierce et de fuite de données de santé.
+- [docs/TECHNICAL_DATA_FLOW_AUDIT.md](docs/TECHNICAL_DATA_FLOW_AUDIT.md) — vérification des flux de données : ce qui a été cherché, ce qui a été constaté, et ce que cette vérification ne prouve pas.
 - [docs/EXPORT_SECURITY.md](docs/EXPORT_SECURITY.md) — sauvegardes chiffrées et limites de récupération.
 - [docs/international-rollout.md](docs/international-rollout.md) — porte de revue avant tout nouveau pays.
-- [local-first-proof/](local-first-proof/) — **extrait du vrai code source** (chiffrement, stockage, export, authentification) pour vérifier directement, sans avoir à nous croire sur parole, qu'aucune donnée de santé ne quitte l'appareil.
+- **Vérification du code source** — le code reste privé. Une lecture des modules qui portent le chiffrement, le stockage local et les exports peut être accordée sur demande motivée : [crohnapp@gmail.com](mailto:crohnapp@gmail.com).
 
 ## Fonctionnement local et confidentialité
 
 - Aucun compte serveur requis. L'e-mail est un identifiant local sur l'appareil, jamais synchronisé.
 - Le mot de passe déverrouille un coffre local chiffré (AES-GCM-256, clé dérivée par PBKDF2-SHA-256). Après un rechargement, un profil réel se reverrouille : le mot de passe n'est jamais stocké.
+- Les photos, leurs miniatures et les informations qui les accompagnent sont chiffrées dans un espace séparé. Une sauvegarde des photos et une sauvegarde du carnet sont deux fichiers distincts.
 - Aucun outil d'analytics tiers ni traceur publicitaire (voir l'audit technique ci-dessus).
 
 ## Périmètre médical et réglementaire
@@ -91,7 +92,7 @@ Pour toute question, retour de participation ou demande d'accès en lecture au c
 
 ---
 
-# English
+## English summary
 
 > **Status: public local-first demo** — not a certified medical device.
 

@@ -14,8 +14,10 @@ Captures réelles du mode démo (données fictives). Depuis [crohnapp.com](https
 
 ## Guides mobiles essentiels
 
+- [Questions fréquentes — mises à jour, sauvegardes, analyses et données](docs/FAQ.md)
 - [Mettre à jour CrohnApp et vérifier la version](docs/guides/mise-a-jour-pwa.md)
 - [Créer et restaurer une sauvegarde chiffrée](docs/guides/sauvegarder-restaurer.md)
+- [Exporter un graphique d'analyse en PNG](docs/guides/exporter-analyses-png.md)
 
 Ces guides utilisent uniquement le profil démo et des données fictives. Une procédure écrite reste
 présente sous chaque GIF pour l'accessibilité et pour les connexions lentes.

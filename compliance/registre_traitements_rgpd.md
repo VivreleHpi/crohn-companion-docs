@@ -33,6 +33,12 @@ ni délai de réponse, ni copie résiduelle à purger.
 
 ## Si un backend est envisagé un jour
 
-Le cadre change entièrement : hébergement HDS, registre des traitements formel, DPIA,
-consentement explicite, politique de conservation, DPO ou conseil juridique. **Aucun backend
-de données de santé ne doit être déployé avant que ces prérequis soient remplis.**
+Le cadre devrait être entièrement réévalué **avant tout déploiement** : détermination des rôles
+RGPD et des bases juridiques applicables, registre des traitements, examen de la nécessité d'une
+analyse d'impact, politique de conservation, modalités d'exercice des droits, mesures de sécurité,
+qualification du besoin d'hébergement certifié pour les données de santé, et gouvernance adaptée.
+
+La nécessité de désigner un délégué à la protection des données, comme les modalités de recueil
+d'un éventuel consentement, dépendraient de la finalité retenue et du cadre juridique applicable :
+elles ne peuvent pas être présumées ici. **Aucun backend de données de santé ne sera déployé avant
+que cette réévaluation ait été conduite.**

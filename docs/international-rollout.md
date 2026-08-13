@@ -12,4 +12,4 @@ Le produit est actuellement configuré pour la France (`fr-FR`) uniquement. Aucu
 
 ## État de la barrière
 
-`src/lib/i18n.ts` ne publie que `fr-FR`. L'ajout d'une locale ou d'un pays est une modification contrôlée qui exige les cinq preuves ci-dessus dans la revue de changement.
+L'application ne propose que le français de France, et la juridiction française est fixée dans le produit : ce n'est pas un réglage que l'on bascule. Ajouter une langue d'interface ne revient pas à ouvrir un pays — l'ouverture d'un pays est une modification contrôlée qui exige les cinq preuves ci-dessus dans la revue de changement.

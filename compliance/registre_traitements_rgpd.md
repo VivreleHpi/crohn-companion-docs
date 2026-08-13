@@ -4,25 +4,32 @@
 
 CrohnApp fonctionne **entièrement en local** : les données de santé restent sur
 l'appareil de l'utilisateur, sous son contrôle exclusif, à des fins strictement personnelles.
-Dans cette configuration, l'éditeur n'a accès à aucune donnée de santé et n'effectue aucun
-traitement au sens opérationnel : il n'y a pas de collecte, pas de transmission, pas de
-conservation côté éditeur. (Cadre de référence : recommandation CNIL relative aux applications
-mobiles ; l'usage domestique par l'utilisateur relève de l'exemption d'usage personnel.)
+Dans cette configuration, l'éditrice n'a accès à aucune donnée de santé : elle n'en assure ni la
+collecte, ni la transmission, ni la conservation. Les seuls traitements qui subsistent sont d'ordre
+technique ou volontaire, et sont décrits ci-dessous. (Cadre de référence : recommandation CNIL
+relative aux applications mobiles ; l'usage domestique par l'utilisateur relève de l'exemption
+d'usage personnel.)
 
 ## Ce que l'éditeur traite malgré tout
 
 | Traitement | Base | Détail |
 |---|---|---|
-| Hébergement du site statique (Vercel) | Intérêt légitime | Logs techniques standards du CDN (adresses IP), non utilisés à des fins de profilage |
-| Contact par email (crohnapp@gmail.com) | Consentement | Uniquement si l'utilisateur écrit de lui-même |
+| Hébergement du site statique | Intérêt légitime | Journaux techniques habituels de l'hébergeur (adresse IP, user-agent), non utilisés à des fins de profilage |
+| Contact par e-mail (crohnapp@gmail.com) | Consentement | Uniquement si la personne écrit d'elle-même |
 
 ## Droits de l'utilisateur
 
-Exercés directement dans l'application, sans intermédiaire :
+Exercés directement dans l'application, sans intermédiaire et sans demande à adresser à
+l'éditrice :
 
-- **Accès / portabilité** : exports CSV et sauvegarde JSON complète.
-- **Rectification** : édition directe de toutes les entrées.
-- **Effacement** : bouton « Réinitialiser l'application » (suppression définitive locale).
+- **Accès et portabilité** : exports CSV et JSON lisibles, sauvegardes chiffrées du carnet et des
+  photos.
+- **Rectification** : édition directe de chaque entrée.
+- **Effacement** : suppression entrée par entrée, ou remise à zéro complète depuis la page
+  « Données et sauvegardes ». La suppression est locale et définitive.
+
+Ces droits n'ont pas de contrepartie côté serveur : comme rien n'est conservé à distance, il n'y a
+ni délai de réponse, ni copie résiduelle à purger.
 
 ## Si un backend est envisagé un jour
 

@@ -16,7 +16,9 @@ diagnostic ou à une décision thérapeutique.
 
 ## Fonctions qui feraient basculer vers le statut de dispositif médical
 
-À ne PAS implémenter sans stratégie réglementaire (marquage CE, classe IIa minimum) :
+À ne PAS implémenter sans analyse réglementaire dédiée. La qualification et la classe éventuelles
+dépendraient de la destination revendiquée et ne peuvent pas être déterminées par cette seule
+documentation :
 
 - Diagnostic ou suggestion de diagnostic (« vous êtes en poussée »).
 - Recommandation ou modification de traitement.
@@ -29,5 +31,6 @@ diagnostic ou à une décision thérapeutique.
 - Toute synthèse est formulée comme un **constat de données déclarées**, jamais comme un avis.
 - Les signaux sont accompagnés de « à discuter avec votre médecin ».
 - Le disclaimer médical est permanent et le PDF rappelle les numéros d'urgence (15 / 112).
-- La France (`fr-FR`) est le seul pays activé. Toute nouvelle locale est bloquée jusqu'à la revue
-  juridique et clinique définie dans `docs/international-rollout.md`.
+- La France est le seul pays activé, et l'application n'est proposée qu'en français. Toute ouverture
+  d'un nouveau pays est bloquée jusqu'à la revue juridique et clinique définie dans
+  [international-rollout.md](../docs/international-rollout.md).

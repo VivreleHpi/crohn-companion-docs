@@ -7,12 +7,12 @@ de Crohn ou une MICI. Il permet de :
 
 - Consigner les selles (échelle de Bristol, sang, mucus), les symptômes, le suivi des prises
   déclarées des traitements, ainsi que le score Harvey-Bradshaw (HBI) calculé à partir des
-  données déclarées (formule documentée dans `compliance/hbi_calcul.md`).
+  données déclarées (formule documentée dans [hbi_calcul.md](hbi_calcul.md)).
 - Visualiser des tendances simples et explicables (fréquence, sévérité, prises renseignées).
 - Générer une **synthèse des données déclarées pour la consultation** (PDF), avec un indicateur
   de complétude signalant si les saisies sont suffisantes pour être exploitables.
-- Exporter ses données (CSV, sauvegarde JSON) et préparer un dépôt manuel de la synthèse dans
-  **Mon espace santé**.
+- Exporter ses données : CSV et JSON lisibles, sauvegardes chiffrées du carnet et des photos,
+  graphiques en PNG, et préparer un dépôt manuel de la synthèse dans **Mon espace santé**.
 
 ## Ce que ne fait pas CrohnApp
 

@@ -36,7 +36,7 @@ Le **code source vit dans un dépôt privé**. Ce dépôt public existe pour don
 
 Elle ne diagnostique pas, ne remplace pas un professionnel de santé et ne doit pas être utilisée pour trier une urgence.
 
-## Appel à participation (bêta ouverte)
+## Appel à participation (bêta publique)
 
 Le projet cherche des retours pour progresser, de deux profils en particulier :
 
@@ -66,7 +66,7 @@ Rédigé pour être lisible par un non-technicien, il reflète l'architecture r�
 
 ## Autre documentation
 
-- [docs/TECHNICAL_DATA_FLOW_AUDIT.md](docs/TECHNICAL_DATA_FLOW_AUDIT.md) — vérification des flux de données : ce qui a été cherché, ce qui a été constaté, et ce que cette vérification ne prouve pas.
+- [docs/revue-technique-flux-donnees.md](docs/revue-technique-flux-donnees.md) — revue technique **interne** des flux de données : ce qui a été cherché, ce qui a été constaté, et ce que cette revue ne prouve pas. Un audit de sécurité externe indépendant reste à réaliser.
 - [docs/EXPORT_SECURITY.md](docs/EXPORT_SECURITY.md) — sauvegardes chiffrées et limites de récupération.
 - [docs/international-rollout.md](docs/international-rollout.md) — porte de revue avant tout nouveau pays.
 - **Vérification du code source** — le code reste privé. Une lecture des modules qui portent le chiffrement, le stockage local et les exports peut être accordée sur demande motivée : [crohnapp@gmail.com](mailto:crohnapp@gmail.com).
@@ -76,11 +76,13 @@ Rédigé pour être lisible par un non-technicien, il reflète l'architecture r�
 - Aucun compte serveur requis. L'e-mail est un identifiant local sur l'appareil, jamais synchronisé.
 - Le mot de passe déverrouille un coffre local chiffré (AES-GCM-256, clé dérivée par PBKDF2-SHA-256). Après un rechargement, un profil réel se reverrouille : le mot de passe n'est jamais stocké.
 - Les photos, leurs miniatures et les informations qui les accompagnent sont chiffrées dans un espace séparé. Une sauvegarde des photos et une sauvegarde du carnet sont deux fichiers distincts.
-- Aucun outil d'analytics tiers ni traceur publicitaire (voir l'audit technique ci-dessus).
+- Aucun outil d'analytics tiers ni traceur publicitaire (voir la revue technique ci-dessus).
 
 ## Périmètre médical et réglementaire
 
-Produit prêt pour une démonstration technique et un pilote fermé, sous revue humaine. Il n'est pas présenté comme un dispositif médical, un service d'urgence, une solution de diagnostic ou un produit certifié HAS/RGPD-santé/HDS/HIPAA.
+CrohnApp est une **bêta publique**, ouverte à l'essai et aux retours d'usage. Toute expérimentation structurée avec des patients ou des professionnels de santé est conduite séparément, sous forme de pilote encadré défini dans [compliance/plan_validation_clinique.md](compliance/plan_validation_clinique.md).
+
+CrohnApp ne revendique aujourd'hui aucune certification médicale, qualification réglementaire, certification d'hébergeur de données de santé, ni validation institutionnelle. Ce n'est ni un dispositif médical, ni un service d'urgence, ni un outil de diagnostic. Ces exigences seront réévaluées si l'architecture ou la destination d'usage évoluent.
 
 ## Hors périmètre actuel
 

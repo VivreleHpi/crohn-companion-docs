@@ -1,11 +1,15 @@
-# Vérification des flux de données — CrohnApp
+# Revue technique interne des flux de données — CrohnApp
 
-*Revue du 13 août 2026, portant sur CrohnApp v1.1.0.*
+*Analyse statique du 13 août 2026, portant sur CrohnApp v1.1.0.*
 
-Ce document résume une vérification interne : est-ce que l'application envoie quelque chose
-quelque part ? Il est écrit pour être lisible sans compétence technique. Le code source reste
-privé ; une lecture peut être accordée sur demande motivée à
-[crohnapp@gmail.com](mailto:crohnapp@gmail.com).
+> **Ceci n'est pas un audit indépendant.** Ce document est une revue conduite en interne par
+> l'éditrice. Aucune société d'audit, aucun auditeur externe et aucun rapport signé ne sont
+> associés à ce travail. Un audit de sécurité externe reste à réaliser ; c'est une étape
+> identifiée, pas une case cochée.
+
+Il répond à une question simple : est-ce que l'application envoie quelque chose quelque part ? Il
+est écrit pour être lisible sans compétence technique. Le code source reste privé ; une lecture
+peut être accordée sur demande motivée à [crohnapp@gmail.com](mailto:crohnapp@gmail.com).
 
 ## Ce qui a été cherché
 

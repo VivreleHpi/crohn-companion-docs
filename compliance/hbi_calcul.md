@@ -1,6 +1,6 @@
 # Calcul du score Harvey-Bradshaw Index (HBI)
 
-> Version du calcul : 1.0.0
+> Version du calcul HBI : 1.0.0 (indépendante de la version produit CrohnApp)
 > Dernière relecture : 2026-07-16 (relecture interne, non médicale — une relecture par un
 > gastro-entérologue reste à planifier avant toute revendication clinique)
 
@@ -15,13 +15,13 @@ n'est produite par l'application.
 ## Source
 
 - Harvey RF, Bradshaw JM. *A simple index of Crohn's-disease activity.* The Lancet,
-  1980;315(8167):514. PubMed : <https://pubmed.ncbi.nlm.nih.gov/6102236/>
-  (référence également liée depuis l'interface : <https://pubmed.ncbi.nlm.nih.gov/638138/>).
+  1980;315(8167):514. PubMed : <https://pubmed.ncbi.nlm.nih.gov/6102236/>.
 
-## Formule implémentée
+C'est la référence liée depuis l'application elle-même, sur l'écran de calcul du score.
 
-Somme de cinq composantes, telles que déclarées par l'utilisateur pour les dernières 24 h
-(voir `src/components/hbi/HBICalculator.tsx`, fonction `calculateScore`) :
+## Formule appliquée
+
+Somme de cinq composantes, telles que déclarées par l'utilisateur pour les dernières 24 h :
 
 | Composante | Valeurs possibles |
 | --- | --- |
@@ -35,8 +35,9 @@ Somme de cinq composantes, telles que déclarées par l'utilisateur pour les der
 
 ## Seuils de repère affichés
 
-Fonction `getInterpretation` (`HBICalculator.tsx`) et `getInterpretationStyles`
-(`src/components/dashboard/HBIShortcut.tsx`) — libellés volontairement non diagnostiques :
+Le calcul et les bandes de repère proviennent d'une source unique dans l'application, afin que
+l'écran de calcul, le tableau de bord et la synthèse affichent toujours la même valeur. Les
+libellés sont volontairement non diagnostiques :
 
 | Score | Libellé affiché |
 | --- | --- |
@@ -53,3 +54,7 @@ présentées comme des repères de discussion, jamais comme rémission/poussée.
 | Version | Date | Changement |
 | --- | --- | --- |
 | 1.0.0 | 2026-07-16 | Documentation initiale de la formule, des seuils et des libellés non diagnostiques. |
+
+La formule n'a pas changé depuis. Le 13 août 2026, le calcul et les bandes ont été regroupés dans
+une source unique côté application et couverts par des tests de valeur, afin d'écarter tout risque
+de divergence entre les écrans. Le score affiché est inchangé.

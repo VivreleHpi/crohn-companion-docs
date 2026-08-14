@@ -8,8 +8,9 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
-## 2026-08-14 — version produit inchangée (v1.1.0)
+## v1.1.1 — 2026-08-14
 
+- Version produit portée à 1.1.1, consultable dans **Profil**.
 - Photos : l'onglet « Prendre une photo » distingue deux actions, **Prendre une photo** qui ouvre
   l'appareil photo et **Importer une image** qui ouvre la galerie ou les fichiers de l'appareil.
 - Une image que le navigateur ne sait pas décoder, notamment un HEIC/HEIF d'iPhone, est signalée dès

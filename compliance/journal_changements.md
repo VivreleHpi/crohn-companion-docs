@@ -8,6 +8,20 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## 2026-08-14 — version produit inchangée (v1.1.0)
+
+- Photos : l'onglet « Prendre une photo » distingue deux actions, **Prendre une photo** qui ouvre
+  l'appareil photo et **Importer une image** qui ouvre la galerie ou les fichiers de l'appareil.
+- Une image que le navigateur ne sait pas décoder, notamment un HEIC/HEIF d'iPhone, est signalée dès
+  l'aperçu, avec la marche à suivre.
+- Rappels locaux : l'affichage des notifications passe par le service worker de la PWA. Lorsque le
+  navigateur n'affiche pas une notification, l'application le signale et le rappel reste programmé.
+- Le déclenchement d'un rappel application complètement fermée n'est pas garanti et reste à valider.
+  L'export agenda (`.ics`) demeure le moyen fiable d'être averti hors application.
+- Pages publiques : données structurées déclarées page par page, et dates de dernière révision du
+  plan de site fondées sur la révision réelle de chaque page plutôt que sur la date de publication.
+- Libellé « Créer mon carnet » harmonisé sur les pages publiques.
+
 ## v1.1.0 — 2026-08-13
 
 - Ajout d'une page « Aide et FAQ » accessible sans ouvrir de carnet, avec des liens directs vers

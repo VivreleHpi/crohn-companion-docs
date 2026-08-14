@@ -32,6 +32,7 @@ Le **code source vit dans un dépôt privé**. Ce dépôt public existe pour don
 - Suivi des prises déclarées et oublis explicitement déclarés — jamais déduits d'une absence de saisie.
 - Score HBI calculé à partir des données déclarées, présenté comme repère de suivi, pas un diagnostic.
 - Synthèse des données déclarées pour la consultation, exportable en PDF.
+- Rappels locaux (traitement, rendez-vous, résumé) affichés tant que l'application est ouverte ou active sur l'appareil. Le déclenchement application complètement fermée n'est pas garanti : l'export agenda `.ics` reste le moyen fiable d'être averti hors application.
 - Aucune donnée de santé ne quitte l'appareil sans action explicite de l'utilisateur (export CSV/JSON/PDF).
 
 Elle ne diagnostique pas, ne remplace pas un professionnel de santé et ne doit pas être utilisée pour trier une urgence.

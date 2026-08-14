@@ -57,6 +57,32 @@ définition contient son titre, la période, la légende, la date d'export et la
 
 Voir le guide : [exporter une analyse en PNG](guides/exporter-analyses-png.md).
 
+## Comment ajouter une photo à mon carnet ?
+
+Dans **Photos**, l'onglet **Galerie** affiche les photos déjà enregistrées. L'onglet **Prendre une
+photo** propose deux actions distinctes : **Prendre une photo** ouvre l'appareil photo, et
+**Importer une image** ouvre la galerie ou les fichiers de l'appareil. Les photos sont chiffrées sur
+l'appareil et ne sont jamais envoyées sur Internet.
+
+## Une photo importée est refusée à cause de son format, que faire ?
+
+Certains navigateurs ne savent pas lire les images **HEIC/HEIF**, le format produit par défaut par
+les iPhone. CrohnApp le signale dès l'aperçu, avant l'enregistrement. Deux solutions : régler
+**Réglages > Appareil photo > Formats** sur « Plus compatible » sur l'iPhone, ou convertir la photo
+en JPEG avant de l'importer.
+
+## Quand les rappels de CrohnApp s'affichent-ils ?
+
+Les rappels de traitement, de rendez-vous et le résumé quotidien sont **locaux** : ils sont produits
+sur l'appareil, sans serveur. Ils s'affichent une fois les notifications autorisées, tant que
+CrohnApp est ouverte ou active en arrière-plan. Si le navigateur n'affiche pas la notification,
+l'application vous le signale et le rappel reste programmé.
+
+**Le déclenchement lorsque l'application est complètement fermée n'est pas garanti.** Pour être
+averti de façon fiable dans ce cas, utilisez le bouton **Agenda** d'un rendez-vous : le fichier
+`.ics` ajoute l'événement à Google Agenda, Samsung Calendar ou Apple Calendrier, qui sonnera à votre
+place. Ces rappels ne sont pas des alarmes médicales.
+
 ## Comment signaler un problème ?
 
 Écrivez à [crohnapp@gmail.com](mailto:crohnapp@gmail.com) en indiquant le modèle du téléphone, la

@@ -8,7 +8,7 @@
 
 ## Tutoriel — comment ça marche
 
-Captures réelles du mode démo (données fictives). Depuis [crohnapp.com](https://crohnapp.com), cliquez sur **« Essayer avec un profil démo »** : tableau de bord, selles (Bristol), symptômes, traitements, analyses, synthèse PDF et exports/sauvegardes chiffrées.
+Captures réelles du mode démo (données fictives). Depuis [crohnapp.com](https://crohnapp.com), cliquez sur **« Essayer avec un profil démo »** : tableau de bord, selles (Bristol), symptômes, traitements, analyses, synthèse PDF et exports/sauvegardes chiffrées. La saisie est possible et conservée pendant la session, puis effacée à la sortie. La restauration d'une sauvegarde, elle, demande un carnet personnel.
 
 <img src="docs/assets/tutorial-mobile.gif" alt="Tutoriel CrohnApp sur mobile" width="320" />
 
@@ -19,8 +19,9 @@ Captures réelles du mode démo (données fictives). Depuis [crohnapp.com](https
 - [Créer et restaurer une sauvegarde chiffrée](docs/guides/sauvegarder-restaurer.md)
 - [Exporter un graphique d'analyse en PNG](docs/guides/exporter-analyses-png.md)
 
-Ces guides utilisent uniquement le profil démo et des données fictives. Une procédure écrite reste
-présente sous chaque GIF pour l'accessibilité et pour les connexions lentes.
+Ces guides utilisent uniquement des données fictives. Ils sont capturés sur le profil démo, à
+l'exception de la restauration d'une sauvegarde, qui demande un carnet personnel. Une procédure
+écrite reste présente sous chaque GIF pour l'accessibilité et pour les connexions lentes.
 
 Ce dépôt contient uniquement la **documentation** de CrohnApp, une PWA React/TypeScript qui aide une personne vivant avec la maladie de Crohn à suivre ses symptômes, selles, traitements et à préparer une discussion avec son équipe soignante.
 

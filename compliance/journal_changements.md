@@ -8,6 +8,21 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## v1.2.0 — 2026-08-14
+
+- Version produit portée à 1.2.0, consultable dans **Profil**.
+- Profil démo : la saisie est enregistrée et conservée pendant toute la session — selles, symptômes,
+  traitements, repère HBI et photos. Le parcours de démonstration peut donc être essayé de bout en
+  bout, sans créer de carnet.
+- Le contenu saisi dans le profil démo est effacé de l'appareil à la sortie de la démonstration et,
+  au plus tard, à la fin de la session de 24 heures. Cette durée court à partir du démarrage de la
+  démonstration.
+- Le profil démo n'accepte pas l'import d'une sauvegarde. La restauration demande un carnet
+  personnel ; l'export et la sauvegarde chiffrée restent disponibles en démonstration.
+- Le planning des traitements fictifs reste identique à chaque ouverture de la démonstration. Un
+  traitement ajouté par la personne qui teste suit, lui, le fonctionnement normal.
+- Les rappels système ne sont pas activés sur le profil démo.
+
 ## v1.1.1 — 2026-08-14
 
 - Version produit portée à 1.1.1, consultable dans **Profil**.

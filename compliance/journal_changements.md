@@ -8,6 +8,14 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## v1.2.2 — 2026-08-15
+
+- Version produit portée à 1.2.2, consultable dans **Profil**.
+- Synthèse pour la consultation : depuis un carnet personnel, l'action
+  **Télécharger ou Partager le PDF** remet à nouveau le fichier, avec le résumé
+  qui l'accompagne. Le partage natif du téléphone est utilisé lorsqu'il est
+  disponible, sinon le fichier est téléchargé.
+
 ## v1.2.1 — 2026-08-15
 
 - Version produit portée à 1.2.1, consultable dans **Profil**.

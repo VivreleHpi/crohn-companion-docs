@@ -8,6 +8,13 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## v1.2.1 — 2026-08-15
+
+- Version produit portée à 1.2.1, consultable dans **Profil**.
+- Fin de session démo : le coffre fictif lui-même est retiré de l'appareil, et
+  pas seulement son contenu. Après la sortie de la démonstration, il ne reste ni
+  données ni conteneur de démonstration dans le stockage du navigateur.
+
 ## v1.2.0 — 2026-08-14
 
 - Version produit portée à 1.2.0, consultable dans **Profil**.

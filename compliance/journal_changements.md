@@ -8,6 +8,15 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## v1.2.3 — 2026-08-16
+
+- L'ancienne adresse de la bêta détecte désormais la présence éventuelle d'un carnet local avant
+  de rediriger vers `crohnapp.com`.
+- Lorsqu'un carnet est présent, CrohnApp indique comment effectuer une sauvegarde puis poursuivre
+  sur l'adresse actuelle.
+- Les données restent locales à l'appareil et ne sont pas transférées automatiquement entre deux
+  adresses web.
+
 ## v1.2.2 — 2026-08-15
 
 - Version produit portée à 1.2.2, consultable dans **Profil**.

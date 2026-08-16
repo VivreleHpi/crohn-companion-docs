@@ -4,7 +4,7 @@ CrohnApp peut désormais se mettre à jour sans être désinstallée. Chrome peu
 silencieusement lorsque l'application est fermée ; dans ce cas, CrohnApp confirme la version active
 à la prochaine ouverture.
 
-<img src="../assets/guides/mobile/mise-a-jour-version-mobile.gif" alt="Sur mobile, CrohnApp confirme la mise à jour puis affiche la version v1.0.0 dans le profil" width="360" />
+<img src="../assets/guides/mobile/mise-a-jour-version-mobile.gif" alt="Sur mobile, CrohnApp confirme la mise à jour puis affiche la version installée dans le profil" width="360" />
 
 1. Gardez une connexion Internet active et fermez complètement CrohnApp.
 2. Fermez aussi les onglets `crohnapp.com` encore ouverts dans Chrome.

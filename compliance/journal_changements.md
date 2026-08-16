@@ -8,6 +8,13 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## v1.2.4 — 2026-08-17
+
+- Version produit portée à 1.2.4, consultable dans **Profil**.
+- Correction de l'affichage mobile de la page **Données & sauvegardes** : le champ de mot de passe
+  et son bouton s'empilent désormais sur les petits écrans, afin d'éviter un débordement horizontal
+  de la page.
+
 ## v1.2.3 — 2026-08-16
 
 - L'ancienne adresse de la bêta détecte désormais la présence éventuelle d'un carnet local avant
